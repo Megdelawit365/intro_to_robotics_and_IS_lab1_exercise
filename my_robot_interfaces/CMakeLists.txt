@@ -26,6 +26,7 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotStatus.msg"
   "srv/SetTurnSpeed.srv"
+  "action/Rotate.action"
 
 )
 ament_package()
