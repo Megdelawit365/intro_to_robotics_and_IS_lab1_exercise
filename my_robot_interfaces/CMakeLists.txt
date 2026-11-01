@@ -25,5 +25,7 @@ if(BUILD_TESTING)
 endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotStatus.msg"
+  "srv/SetTurnSpeed.srv"
+
 )
 ament_package()
